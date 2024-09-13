@@ -1,0 +1,2 @@
+aidial-sdk==0.1.2
+openai

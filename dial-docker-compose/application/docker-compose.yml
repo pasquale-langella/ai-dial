@@ -5,3 +5,5 @@ include:
 services:
   echo:
     build: echo
+  books-recommendation:
+    build: books-recommendation

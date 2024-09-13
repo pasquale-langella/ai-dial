@@ -5,9 +5,13 @@
       "displayName": "My Echo App",
       "description": "Simple application that repeats user's message",
       "endpoint": "http://echo:5000/openai/deployments/echo/chat/completions"
+    },
+    "books-recommendation": {
+      "displayName": "Books recommendation application",
+      "description": "Simple application that repeats user's message",
+      "endpoint": "http://books-recommendation:5000/openai/deployments/books-recommendation/chat/completions"
     }
   },
-  "models": {},
   "keys": {
     "dial_api_key": {
       "project": "TEST-PROJECT",
@@ -17,7 +21,8 @@
   "roles": {
     "default": {
       "limits": {
-        "echo": {}
+        "echo": {},
+        "books-recommendation":{}
       }
     }
   }

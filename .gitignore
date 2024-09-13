@@ -32,3 +32,5 @@ __pycache__
 
 # Local dev files
 ~*
+dial-docker-compose/*/core-data/**
+*.sec
