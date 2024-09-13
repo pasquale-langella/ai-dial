@@ -16,7 +16,6 @@ class BooksRecommendationApplication(ChatCompletion):
 
         # Generate response with a single choice
         with response.create_single_choice() as choice:
-            # Fill the content of the response with the last user's content
             llm_response = self.call_openai(last_user_message)
             choice.append_content(llm_response)
 
