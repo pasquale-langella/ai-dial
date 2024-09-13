@@ -3,7 +3,7 @@ name: Release workflow
 on:
   push:
     branches:
-      - main
+      - main-deactivate
 
 jobs:
   run-notebooks:
